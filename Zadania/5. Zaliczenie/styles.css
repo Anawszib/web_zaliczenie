@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+}
+
+.menuSection {
+    width: 100%;
+    height: 70px;
+    background-color: lightskyblue;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.navBox {
+    width: 10%;
+    margin: 15px;
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: cornflowerblue;
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.smallContainer {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+}
+
+.itemSection {
+    width: 80%;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.itemBox {
+    width: 250px;
+    height: 370px;
+    background-color: lightgray;
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pictureBox {
+    background-color: darkgray;
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pictureBox img {
+    width: 200px;
+    height: 200px;
+}
+
+.nameBox {
+    width: 200px;
+    height: 35px;
+    background-color: darkgray;
+    margin-left: 25px;
+    margin-right: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.priceBox {
+    width: 88px;
+    height: 35px;
+    background-color: darkgray;
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addToCartBox {
+    width: 87px;
+    height: 35px;
+    background-color: darkgray;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartSection {
+    width: 20%;
+    background-color: cornsilk;
+}
+
+.buyClear {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+}
+
+.buy {
+    width: 48%;
+    height: 45px;
+    background-color: wheat;
+    margin-right: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.clear {
+    width: 48%;
+    height: 45px;
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.cPrice {
+    width: 100%;
+    height: 45px;
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.itemsInCart {
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 30px;
+}
+
+.inCartItem {
+    margin-bottom: 15px;
+}
+
+.inCartNameDelete {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 7px;
+}
+
+.inCartName {
+    width: 80%;
+    height: 22px;
+    background-color: wheat;
+    margin-right: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inCartDelete {
+    width: 16%;
+    height: 22px;
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inCartPrice {
+    width: 100%;
+    height: 22px;
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
